@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "458837247991",
+    "firebase_url": "https://idletamergame-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "idletamergame",
+    "storage_bucket": "idletamergame.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:458837247991:android:fecbd3d1d4727d3eca90f2",
+        "android_client_info": {
+          "package_name": "com.example.idletamergame"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcMCjoslqR6A09t6LFdyvn8GDtv9KpbGQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
