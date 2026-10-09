@@ -1,3 +1,10 @@
+flutter_native_splash:
+  color: "#17251d"
+  image: assets/TitleGame.png
+  android_12:
+    color: "#17251d"
+    image: assets/TitleGame.png
+
 name: idletamergame
 description: "A new Flutter project."
 # The following line prevents the package from being accidentally published to
@@ -50,7 +57,15 @@ dev_dependencies:
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
   flutter_lints: ^6.0.0
+  flutter_native_splash: ^2.4.8
+  flutter_launcher_icons: ^0.14.4
   
+flutter_launcher_icons:
+  android: true
+  ios: false
+  image_path: assets/TitleGame.png
+  adaptive_icon_background: "#17251d"
+  adaptive_icon_foreground: assets/TitleGame.png
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
