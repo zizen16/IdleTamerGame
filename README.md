@@ -1,5 +1,7 @@
 # idletamergame
 
+Ralph Robin Padilla - CCE106 (5685)
+
 A new Flutter project.
 
 ## Getting Started
