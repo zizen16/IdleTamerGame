@@ -237,8 +237,8 @@ class _HabitatState extends State<Habitat> {
                       scrollDirection: Axis.horizontal,
                       child: Row(
                       children: [
-                        LocationCard("Plains.png", "Plains"),
-                        LocationCard("Forest.png", "Forest"),
+                        LocationCard("assets/Plains.png", "Plains"),
+                        LocationCard("assets/Forest.png", "Forest"),
                         
                       ],
                     ),

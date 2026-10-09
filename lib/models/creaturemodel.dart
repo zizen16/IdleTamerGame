@@ -1,15 +1,19 @@
+String _normalizeAvatarAssetPath(String path) =>
+    path.contains('/') ? path : 'assets/$path';
+
 class CreatureModel {
   CreatureModel({
     required this.name, 
     required this.rarity, 
     required this.description, 
-    required this.avatar,
+    required String avatar,
     this.power,
     this.exp,
     this.level,
     this.goldGen,
     double? hunger,
-  }) : hunger = hunger;
+    })  : avatar = _normalizeAvatarAssetPath(avatar),
+      hunger = hunger;
   
   final String name;
   final String rarity;

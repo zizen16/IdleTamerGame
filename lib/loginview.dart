@@ -108,7 +108,7 @@ class _LoginViewState extends State<LoginView> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Image(image: AssetImage('TitleGame.png'),width:200,height:200),
+            Image(image: AssetImage('assets/TitleGame.png'),width:200,height:200),
             Text("Login",  style: TextStyle(fontSize: 20, fontWeight: .bold),),
             SizedBox(height: 20),
             buildTextField(_emailController, false, "Email"),

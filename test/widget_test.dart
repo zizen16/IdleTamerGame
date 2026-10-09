@@ -15,6 +15,24 @@ import 'package:idletamergame/monstercatch.dart';
 import 'package:idletamergame/monsterslib.dart';
 
 void main() {
+  test('creature model resolves legacy bare avatar filenames', () {
+    final legacyCreature = CreatureModel(
+      name: 'Slime',
+      rarity: 'Common',
+      description: 'A friendly forest creature',
+      avatar: 'Slime.png',
+    );
+    final prefixedCreature = CreatureModel(
+      name: 'Ember',
+      rarity: 'Rare',
+      description: 'A tiny fire spirit',
+      avatar: 'assets/Ember.png',
+    );
+
+    expect(legacyCreature.avatar, 'assets/Slime.png');
+    expect(prefixedCreature.avatar, 'assets/Ember.png');
+  });
+
   test('idle gold is paid in integer amounts every 30 seconds', () {
     final login = Login(
       email: 'player@example.com',
